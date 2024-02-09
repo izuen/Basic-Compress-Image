@@ -95,7 +95,7 @@ Partial Class Form1
         ' titleSelect
         ' 
         titleSelect.AutoSize = True
-        titleSelect.BackColor = SystemColors.Control
+        titleSelect.BackColor = Color.White
         titleSelect.Enabled = False
         titleSelect.Location = New Point(298, 372)
         titleSelect.Name = "titleSelect"
@@ -127,6 +127,7 @@ Partial Class Form1
         Controls.Add(btnCompress)
         FormBorderStyle = FormBorderStyle.FixedSingle
         Name = "Form1"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "Basic Compress Image"
         CType(imagePreview, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
